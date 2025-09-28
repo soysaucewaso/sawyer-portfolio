@@ -3,6 +3,7 @@ import React from 'react';
 import { GithubIcon } from './icons/GithubIcon';
 import { LinkedinIcon } from './icons/LinkedinIcon';
 import { MailIcon } from './icons/MailIcon';
+import { DownloadIcon } from './icons/DownloadIcon';
 
 const socialLinks = [
   {
@@ -19,6 +20,11 @@ const socialLinks = [
     name: 'Email',
     url: 'mailto:blankenshipsawyer1@gmail.com', // Placeholder
     icon: MailIcon
+  },
+  {
+    name: 'Resume',
+    url: 'Resume.pdf',
+    icon: DownloadIcon
   }
 ];
 
