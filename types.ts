@@ -11,6 +11,7 @@ export interface Experience {
 export interface Project {
   name: string;
   projectUrl: string;
+  urlName: string;
   period: string;
   description: string[];
 }

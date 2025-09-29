@@ -18,7 +18,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
           <h3 className="text-lg font-bold text-white">{project.name}</h3>
           {project.projectUrl !== '#' && (
             <a href={project.projectUrl} target="_blank" rel="noopener noreferrer" className="flex items-center text-sm font-medium text-cyan-400 hover:text-cyan-300 transition-colors duration-300 whitespace-nowrap">
-                Devpost
+                {project.urlName}
                 <LinkIcon className="w-4 h-4 ml-1.5" />
             </a>
           )}
